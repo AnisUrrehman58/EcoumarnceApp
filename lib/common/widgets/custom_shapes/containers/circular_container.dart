@@ -6,6 +6,7 @@ class TCircularContainer extends StatelessWidget {
   const TCircularContainer({
     super.key,
     this.child,
+    this.margin,
     this.width = 400,
     this.height = 400,
     this.radius = 400,
@@ -16,18 +17,20 @@ class TCircularContainer extends StatelessWidget {
   final double? height;
   final double radius;
   final double padding;
-  final Color backgroundColor;
   final Widget? child;
+  final EdgeInsets? margin;
+  final Color backgroundColor;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: height,
       width: width,
+      margin: margin,
       padding: EdgeInsets.all(padding),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(radius),
-          color: TColors.textWhite.withOpacity(0.1)
+          color:backgroundColor,
       ),
 
       child: child,

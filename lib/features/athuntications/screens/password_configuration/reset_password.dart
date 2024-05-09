@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:t_store/features/athuntications/screens/password_configuration/forgot_password.dart';
 import 'package:t_store/utils/constants/image_strings.dart';
 import 'package:t_store/utils/constants/size.dart';
 import 'package:t_store/utils/constants/text_strings.dart';
@@ -16,7 +17,7 @@ class ResetPassword extends StatelessWidget {
       appBar: AppBar(
         // automaticallyImplyLeading: false,
         actions: [
-          IconButton(onPressed: () =>Get.back(), icon: const Icon(CupertinoIcons.clear))
+          IconButton(onPressed: () =>Get.to(() =>const Forget_password()), icon: const Icon(CupertinoIcons.clear))
         ],
       ),
       body:   SingleChildScrollView(
