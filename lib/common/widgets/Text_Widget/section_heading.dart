@@ -8,7 +8,7 @@ class TSectionHeading extends StatelessWidget {
     this.onPressed,
     required this.title,
     this.buttonTitle= 'View all',
-    this.showActionButton = false,
+    this.showActionButton = true,
   });
   final Color? textColor;
   final bool showActionButton;
@@ -18,6 +18,7 @@ class TSectionHeading extends StatelessWidget {
   Widget build(BuildContext context) {
     return
       Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(title,
             style: Theme.of(context).textTheme.headlineSmall!.apply(color: textColor),

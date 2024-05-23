@@ -13,9 +13,11 @@ class TSearchContainer extends StatelessWidget {
     this.showBackGround = true,
     this.icon = Iconsax.search_normal,
     this.onTap,
+    this.padding = const EdgeInsets.symmetric(horizontal: TSize.defaultSpace),
   });
   final String    text;
   final IconData? icon;
+  final EdgeInsetsGeometry padding;
   final bool showBackGround,showBorder;
   final VoidCallback? onTap;
   @override
@@ -24,7 +26,7 @@ class TSearchContainer extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: TSize.defaultSpace),
+        padding: padding,
         child: Container(
           width: TDeviceUtils.getScreenWidth(context),
           padding: const EdgeInsets.all(TSize.md),
