@@ -10,12 +10,12 @@ import 'package:t_store/utils/constants/size.dart';
 
 import '../widgets/product_detail_image_slider.dart';
 import '../widgets/rating_share_widget.dart';
-class ProductDetail extends StatelessWidget {
-  const ProductDetail({super.key});
+class ProductDetailScreen extends StatelessWidget {
+  const ProductDetailScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return     Scaffold(
+    return Scaffold(
       bottomNavigationBar: const TBottomAddToCart(),
       /// Body--
       body: SingleChildScrollView(

@@ -12,6 +12,34 @@ class TImages {
   static const String google = "assets/logos/google-icon.png";
   static const String facebook = "assets/logos/facebook-icon.png";
 
+
+
+
+
+
+
+
+
+
+
+  // -- Lottie Animation
+  static const String cartAnimation = 'assets/images/animations/lady-adding-product-in-cart-animation.json';
+  static const String orderCompletedAnimation  = 'assets/images/animations/order-complete-car-delivery-animation.json';
+  static const String packageAnimation = 'assets/images/animations/98783-packaging-in-progress.json';
+  static const String paperPlanAnimation = 'assets/images/animations/110052-paper-plane.json';
+  static const String carAnimation = 'assets/images/animations/136491-animation-lottie-car-rides.json';
+  static const String pencilAnimation = 'assets/images/animations/140429-pencil-drawing.json';
+  static const String docerAnimation  = 'assets/images/animations/141594-animation-of-docer.json';
+  static const String searchAnimation = 'assets/images/animations/72785-searching.json';
+  static const String emptyAnimation = 'assets/images/animations/72785-searching.json';
+  static const String securityAnimation = 'assets/images/animations/67263-security-icon-transparent.json';
+  static const String successfullyRegisterAnimation = 'assets/images/animations/72462-check-register.json';
+  static const String thankYouAnimation = 'assets/images/animations/104368-thank-you.json';
+  static const String paymentSuccessfullyAnimation = 'assets/images/animations/120978-payment-successful.json';
+  static const String loadingJungleAnimation = 'assets/images/animations/141397-loading-juggle.json';
+  static const String cloudUploadingAnimation = 'assets/images/animations/cloud-uploading-animation.json';
+  static const String loaderAnimation = 'assets/images/animations/loader-animation.json';
+  // static const String
   // -- Category Icons
   static const String sportIcon = "assets/icons/categories/icons8-bowling-64.png";
   static const String clothIcon = "assets/icons/categories/icons8-tailors-dummy-64.png";
@@ -38,6 +66,7 @@ class TImages {
   // -- Animations
   static const String productsIllustration = "assets/images/animations/sammy-line-workout.gif";
   static const String productsSaleIllustration = "assets/images/animations/sammy-line-sale.png";
+  static const String doerAnimation = "assets/images/animations/141594-animation-of-docer.json";
   static const String staticSuccessIllustration = "assets/images/animations/sammy-line-success.png";
   static const String deliveredInPlaneIllustration = "assets/images/animations/sammy-line-come-back-later.png";
   static const String deliveredEmailIllustration = "assets/images/animations/sammy-line-man-receives-a-mail.png";
@@ -139,6 +168,7 @@ class TImages {
   static const String promoBanner1 = "assets/images/products/promo-banner-1.png";
   static const String promoBanner2 = "assets/images/products/promo-banner-2.png";
   static const String promoBanner3 = "assets/images/products/promo-banner-3.png";
+  static const String promoBanner4 = "assets/images/banners/banner_3.jpg";
   static const String banner1 = "assets/images/banners/banner_1.jpg";
   static const String banner2 = "assets/images/banners/banner_2.jpg";
   static const String banner3 = "assets/images/banners/banner_3.jpg";

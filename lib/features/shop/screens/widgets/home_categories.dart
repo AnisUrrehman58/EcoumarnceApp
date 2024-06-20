@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
+import 'package:get/get.dart';
+import 'package:t_store/features/shop/screens/Sub_Category/sub_category.dart';
 
 import '../../../../common/widgets/Image_Text/vertical_image_text.dart';
 import '../../../../utils/constants/image_strings.dart';
 
-class T_Home_Categories extends StatelessWidget {
-  const T_Home_Categories({
+class THomeCategories extends StatelessWidget {
+  const THomeCategories({
     super.key,
   });
 
@@ -19,10 +21,7 @@ class T_Home_Categories extends StatelessWidget {
           itemBuilder: (_,index) {
             /// Return must bi Assign
             return  TVerticalImageText(
-              image: TImages.shoeIcon,
-              title: 'Shoes',
-              onTap: (){},
-            );
+              image: TImages.shoeIcon,title:'Shoes',onTap: () => Get.to(() => const SubCategoriesScreen()));
           }
 
       ),

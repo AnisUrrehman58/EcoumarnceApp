@@ -87,8 +87,9 @@ class ProductAttributes extends StatelessWidget {
                   TChoiceChip(text: 'Yellow', selected: false,onSelected: (value){}),
                 ],
               )
-                       ],
-                     ),
+              ],
+            ),
+         const SizedBox(height: TSize.spaceBtwItem/2),
          Column(
            crossAxisAlignment: CrossAxisAlignment.start,
           children: [

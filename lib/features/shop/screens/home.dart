@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:t_store/common/widgets/products/productS_cards/product_card_vertical.dart';
+import 'package:t_store/features/shop/screens/All_Products/all_products.dart';
 import 'package:t_store/features/shop/screens/widgets/home_apppbar.dart';
 import 'package:t_store/features/shop/screens/widgets/home_categories.dart';
 import 'package:t_store/features/shop/screens/widgets/prormo+slider.dart';
@@ -40,11 +42,11 @@ class HomeScreen extends StatelessWidget {
                     padding:  const EdgeInsets.only(left: TSize.defaultSpace),
                     child: Column(
                       children: [
-                         TSectionHeading(title: 'Popular Categories',onPressed: (){}, textColor: Colors.white),
+                         TSectionHeading(title: 'Popular Categories',onPressed: () => Get.to(() => const AllProducts()), textColor: Colors.white),
                          const SizedBox(height: TSize.spaceBtwItem),
 
                         /// Categories
-                         const T_Home_Categories(),
+                         const THomeCategories(),
                         const SizedBox(height: TSize.spaceBtwSection)
                       ],
                     ),
